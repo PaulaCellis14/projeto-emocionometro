@@ -1,11 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Step by Step School</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Conteiner principal-->
+    <div class="conteiner-index">
+      <!--Conteiner da esquerda-->
+      <div class="conteiner-img">
+        <img
+          src="imgs/coracao.png"
+          alt="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima corporis rem, asperiores ipsam dolor cupiditate libero at. Quos blanditiis iste optio fuga beatae adipisci, et illo, molestiae expedita at distinctio?"
+        />
+      </div>
+
+      <!--Conteiner da direita-->
+      <div class="conteiner-login">
+        <!--Bloco com  o conteúdo para login-->
+        <div class="conteudo">
+          <!--Cabeçalho com a logo-->
+          <div class="logo">
+            <img
+              src="imgs/coracao-logo.png"
+              alt="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illum minima veritatis magnam, quidem quis repellendus voluptate. Eum laudantium quasi obcaecati? Repudiandae magnam laborum dolores minima nobis necessitatibus autem blanditiis!"
+            />
+
+            <p>
+              EMOCIONÔMETRO <br />
+              DE GRUPO
+            </p>
+          </div>
+
+          <h1>Faça seu login</h1>
+
+          <!--Seção do formulário-->
+          <form action="">
+            <!--Campos de e-mail e senha-->
+            <div class="formulario-index">
+              <!--E-mail-->
+              <div>
+                <label for="email">E-mail</label>
+
+                <input
+                  type="email"
+                  name="meuEmail"
+                  id="email"
+                  placeholder="Insira seu e-mail"
+                  required
+                />
+              </div>
+
+              <!--Senha-->
+              <div>
+                <label for="senha">Senha</label>
+
+                <input
+                  type="password"
+                  name="minhaSenha"
+                  id="senha"
+                  placeholder="Insira sua senha"
+                  required
+                />
+              </div>
+            </div>
+
+            <!--Opções lembrar e esquecer senha-->
+            <div class="senha-index">
+              <div>
+                <input
+                  type="checkbox"
+                  name="lebrarMinhaSenha"
+                  id="lembrarSenha"
+                />
+
+                <label for="lembrarSenha">Lembrar-me</label>
+              </div>
+
+              <a href="">Esqueceu sua senha?</a>
+            </div>
+
+            <!--Botões para login ou cadastro-->
+            <div class="botoes-index">
+              <!--Entrar-->
+              <input class="entrar" type="submit" value="Entrar" />
+
+              <div class="ou-entao">
+                <p>Ou então</p>
+                <hr />
+              </div>
+
+              <!--Cadastrar-->
+              <input class="cadastre-se" type="submit" value="Cadastre-se" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
